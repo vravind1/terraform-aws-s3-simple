@@ -14,6 +14,6 @@ provider "aws" {
 resource "aws_s3_bucket" "test_bucket" {
   bucket = var.bucket_name
   tags = {
-    env = "dev"
+    env = "test"
   }
 }
